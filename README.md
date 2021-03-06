@@ -18,7 +18,7 @@ public class ElectricCar extends Car {
     }
     // Override the toString() here.
     // (model) is an  electric car.
-    @Override
+   
     public String toString()
     {
         return getModel() + " is an electric car.";
@@ -51,6 +51,7 @@ public class Car {
         return model + " gets " + mpg + " mpg.";
     }
 }
+
 
 
 public class CarTester
